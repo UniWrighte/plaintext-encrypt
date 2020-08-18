@@ -8,9 +8,6 @@ then
   exit 1;
 fi
 
-
-echo $1
-echo $2
 ssh-keygen -f "$1" -e -m PKCS8 > ./id_rsa.pub.pem
 
 openssl rsautl -encrypt -pubin -inkey ./id_rsa.pub.pem -ssl -in "$2" -out >(base64) | tee output.enc
