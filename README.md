@@ -32,4 +32,5 @@ copy and paste the output of encrypt to avoid file sharing.
 * openssl
 * base64
 * tee
+* ssh-keygen
 * bash
