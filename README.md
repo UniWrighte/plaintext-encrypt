@@ -25,3 +25,11 @@ Decrypt output file with ssh private key:
 
 
 copy and paste the output of encrypt to avoid file sharing.
+
+
+## Dependencies:
+
+* openssl
+* base64
+* tee
+* bash
